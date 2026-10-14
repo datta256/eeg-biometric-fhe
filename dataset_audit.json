@@ -1,0 +1,56 @@
+{
+  "cache": "E:\\ssvep-64ch-cache-retry",
+  "metadata_records": 4500,
+  "unique_subjects": 100,
+  "sessions": {
+    "0": 900,
+    "1": 900,
+    "2": 900,
+    "3": 900,
+    "4": 900
+  },
+  "frequencies": {
+    "9.0": 500,
+    "9.5": 500,
+    "10.5": 500,
+    "10.0": 500,
+    "11.5": 500,
+    "12.0": 500,
+    "8.5": 500,
+    "8.0": 500,
+    "11.0": 500
+  },
+  "shapes": {
+    "(64, 1500)": 4500
+  },
+  "missing_file_count": 0,
+  "duplicate_path_count": 0,
+  "invalid_record_count": 0,
+  "sample_checks": [
+    {
+      "file": "sub-1/ses-0/sub-001_ses-0_trial-00_9hz.npy",
+      "actual_shape": "(64, 1500)",
+      "metadata_shape": "[64, 1500]"
+    },
+    {
+      "file": "sub-1/ses-0/sub-001_ses-0_trial-01_9.5hz.npy",
+      "actual_shape": "(64, 1500)",
+      "metadata_shape": "[64, 1500]"
+    },
+    {
+      "file": "sub-1/ses-0/sub-001_ses-0_trial-02_10.5hz.npy",
+      "actual_shape": "(64, 1500)",
+      "metadata_shape": "[64, 1500]"
+    },
+    {
+      "file": "sub-1/ses-0/sub-001_ses-0_trial-03_10hz.npy",
+      "actual_shape": "(64, 1500)",
+      "metadata_shape": "[64, 1500]"
+    },
+    {
+      "file": "sub-1/ses-0/sub-001_ses-0_trial-04_11.5hz.npy",
+      "actual_shape": "(64, 1500)",
+      "metadata_shape": "[64, 1500]"
+    }
+  ]
+}

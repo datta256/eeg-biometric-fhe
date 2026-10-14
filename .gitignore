@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local EEG datasets and caches
+*cache*/
+metadata.json
+*.fif
+*.edf
+*.bdf
+*.set
+*.vhdr
+*.eeg
+
+# Local cryptographic material — NEVER COMMIT PRIVATE KEYS
+*secret*key*
+*private*key*
+*.pem
+*.key
+*.sk
+
+# Local experiment outputs
+*.log
+.DS_Store
+Thumbs.db
